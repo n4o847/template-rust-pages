@@ -1,0 +1,18 @@
+{
+  "name": "template-rust-pages",
+  "version": "0.1.0",
+  "description": "",
+  "scripts": {
+    "build": "webpack",
+    "serve": "webpack-dev-server"
+  },
+  "dependencies": {
+    "@wasm-tool/wasm-pack-plugin": "^0.2.7",
+    "css-loader": "^2.1.1",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.6.0",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1"
+  }
+}
