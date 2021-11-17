@@ -3,16 +3,16 @@
   "version": "0.1.0",
   "description": "",
   "scripts": {
-    "build": "webpack",
-    "serve": "webpack-dev-server"
+    "build": "webpack --mode=production",
+    "serve": "webpack serve --mode=development"
   },
   "dependencies": {
-    "@wasm-tool/wasm-pack-plugin": "^0.2.7",
-    "css-loader": "^2.1.1",
-    "html-webpack-plugin": "^3.2.0",
-    "mini-css-extract-plugin": "^0.6.0",
-    "webpack": "^4.29.6",
-    "webpack-cli": "^3.3.0",
-    "webpack-dev-server": "^3.2.1"
+    "@wasm-tool/wasm-pack-plugin": "^1.6.0",
+    "css-loader": "^6.5.1",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.4.4",
+    "webpack": "^5.64.1",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.5.0"
   }
 }

@@ -8,20 +8,20 @@ module.exports = {
     rules: [
       {
         test: /\.css$/,
-        use: [
-          MiniCssExtractPlugin.loader,
-          'css-loader',
-        ],
+        use: [MiniCssExtractPlugin.loader, 'css-loader'],
       },
     ],
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: path.resolve(__dirname, './public/index.html')
+      template: path.resolve(__dirname, './public/index.html'),
     }),
     new MiniCssExtractPlugin(),
     new WasmPackPlugin({
-      crateDirectory: path.resolve(__dirname, '.')
+      crateDirectory: path.resolve(__dirname, '.'),
     }),
   ],
+  experiments: {
+    asyncWebAssembly: true,
+  },
 };

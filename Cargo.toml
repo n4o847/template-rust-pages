@@ -2,10 +2,10 @@
 name = "template-rust-pages"
 version = "0.1.0"
 authors = ["n4o847"]
-edition = "2018"
+edition = "2021"
 
 [lib]
 crate-type = ["cdylib"]
 
 [dependencies]
-wasm-bindgen = "0.2.50"
+wasm-bindgen = "0.2.78"
