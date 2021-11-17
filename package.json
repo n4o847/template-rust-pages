@@ -6,7 +6,7 @@
     "build": "webpack --mode=production",
     "serve": "webpack serve --mode=development"
   },
-  "dependencies": {
+  "devDependencies": {
     "@wasm-tool/wasm-pack-plugin": "^1.6.0",
     "css-loader": "^6.5.1",
     "html-webpack-plugin": "^5.5.0",
